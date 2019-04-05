@@ -20,7 +20,7 @@ func NewCatalog() *Catalog {
 	}
 }
 
-func(c *Catalog) Addproduct (name,description string, price float32) error {
+func(c *Catalog) Addproduct(name,description string, price float32) error {
 
 	if name == ""{
 		return InvalidNameErr
